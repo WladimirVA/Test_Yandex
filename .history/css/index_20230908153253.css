@@ -19,7 +19,7 @@ body {
     margin: 0 0 0 262px;
     max-width: 1400px; 
 }
-        /* Кнопка- скрол */
+
 #gradient {
     background: linear-gradient(194deg,rgba(221, 228, 254, 0.8),rgba(255, 0, 0, 0) 70.71%), 
     linear-gradient(170deg, rgb(241 174 169 / 80%), rgba(0, 255, 0, 0) 70.71%), 
