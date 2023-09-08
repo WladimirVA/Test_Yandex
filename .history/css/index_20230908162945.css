@@ -51,7 +51,7 @@ body {
 @media screen and (max-width: 1440px) {
     .section, .gradient {
         margin: 0 0 0 80px;
-        padding: 125px 0 0 80px;
+        padding: 0 0 0 80px;
     }
 }
 

@@ -19,7 +19,6 @@ body {
     margin: 0 0 0 262px;
     max-width: 1400px; 
 }
-
     /* Кнопка- скрол */
 #gradient {
     background: linear-gradient(194deg,rgba(221, 228, 254, 0.8),rgba(255, 0, 0, 0) 70.71%), 
@@ -46,13 +45,6 @@ body {
 .gradient-text {
     z-index: 1;
     position: relative;
-}
-
-@media screen and (max-width: 1440px) {
-    .section, .gradient {
-        margin: 0 0 0 80px;
-        padding: 125px 0 0 80px;
-    }
 }
 
 .gradient-text img {
@@ -105,19 +97,27 @@ body {
 
 .gradient-img {
     margin: -175px 0 0 -135px;
+    width: 100%;
+    height: auto;
 }
 
 .samokat {
     margin: 0px 0 0 -115px;
+    width: 100%;
+    height: auto;
 }
 
 .samokat1 {
     margin: -702px 0 0 0;
+    width: 100%;
+    height: auto;
 }
 
 .samokat2 {
     margin: -350px 0 0 -595px;
     position: absolute;
+    width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -167,11 +167,6 @@ h2 {
 .Exclusive-img {
     margin: -172px 0 0 0;
 }
-
-/* .Exclusive-img1 {
-    width: 100%;
-    height: auto;
-} */
 
 .Exclusive-img2 {
     margin:-127px 0 0 -215px;
