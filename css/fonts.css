@@ -1,0 +1,14 @@
+@font-face {
+    src: url('./text-black.woff');
+    font-family: "YS Text";
+}
+
+@font-face {
+    src: url('./text-medium.woff');
+    font-family: "YS Text";
+}
+
+@font-face {
+    src: url('./text-regular.woff');
+    font-family: "YS Text";
+}

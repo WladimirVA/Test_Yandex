@@ -1,0 +1,236 @@
+
+
+
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gradient-img, .Exclusive-img,.Club-img1,.Club-img2,.Club-img3, .Club-img4, .Club-img5,
+    .money-img, .br-mob,.gradient-text a{
+        display: none;
+    }
+    
+    .gradient, .container, .Club1, .Club2 {
+        display: block;
+    }
+
+    #Home {
+        margin-top: -50px;
+    }
+
+    .gradient,.Club2  {
+        padding: 0;
+        margin: 0;
+    }
+
+    .section {
+        margin: 0 0 0 32px;
+    }
+
+    .section1 {
+        padding: 0 0 40px 0;
+    }
+
+    .gradient {
+        padding: 0 0 0 32px;
+    }
+
+    .gradient-text img {
+        padding: 32px 0 32px 0;
+        width: 112px;
+        height: 32px;
+    }
+
+    .gradient-text a, .Club-text a, .btn-scroll a {
+        width: 311px;
+        height: 49px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+    .btn-scroll a {
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        color: rgba(33, 32, 31, 1);
+    }
+    
+
+    .btn-scroll {
+        position: sticky;
+        top: 600px;
+        min-height: 0;
+        z-index: 2;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+        /* скрол - фиксация в низу экрана */
+
+    /* .gradient {
+        font-size: 15px;
+        padding: 20px 0;
+        --link-height: 64px;
+      }
+      
+      .gradient::after {
+        content: "";
+        display: block;
+        height: var(--link-height);
+      }
+      
+      .btn-scroll{
+        text-align: center;
+        display: block;
+        position: sticky;
+        top: calc(100% - var(--link-height));
+        background-color: #00BADBFF;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 30px;
+        text-decoration: none;
+      } */
+          /* скрол - фиксация в низу экрана */
+
+
+    .gradient-text h1 {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .gradient-text p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 35px 0 0 0;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        max-width: 373px;
+    }
+
+    .container {
+        padding: 0 32px 72px 0;
+    }
+
+    .container-box-p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        max-width: 250px;
+        padding: 0 0 25px 20px;
+    }
+
+    .Exclusive-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        max-width: 325px;
+    }
+
+    .Club-text h3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        max-width: 325px;
+    }
+
+    .Club-text h2 {
+        max-width: 296px;
+    }
+
+    .box-1, .box-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    .gradient-img-mob {
+        display: block;
+        margin: 0 0 0 -30px;
+    }
+
+    .money-img-mob {
+        display: block;
+        margin: -60px 0 0 192px;
+    }
+    .cloud2 {
+        margin: 0 0 0 -13px;
+    }
+
+    .cloud3 {
+        margin: 0 0 0 -4px;
+    }
+
+    .slider {
+        display: block;
+    
+    }
+
+    .item {
+        margin: 40px 0 0 -32px;
+    }
+
+    .button111 {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 55px 0;
+        margin: 0 0 0 -32px;
+    }
+
+    .prev1 {
+        transform: rotate(180deg);
+    }
+
+    .next {
+        padding: 0 0 0px 20px;
+    
+    }
+
+    .button111:hover {
+        opacity: .5;
+        transition: 0.3s;
+    }
+
+    .slider-img {
+        position: absolute;
+        margin: 273px 0 0 220px;
+        display: block;
+    }
+
+    .Club1-mob {
+        margin: -25px 0 -50px -32px;
+        display: block;
+    }
+
+    .Footer {
+        max-width: 360px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 72px 0 72px 0;
+    }
+}

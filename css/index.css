@@ -1,0 +1,256 @@
+body {
+    align-items: center;
+    width: 100%; 
+    max-width: 1400px; 
+    margin: auto;
+    font-family: YS Text, Arial, Helvetica, sans-serif;
+}  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    padding: 0 0 120px 0;
+}
+
+.section {
+    margin: 0 0 0 262px;
+    max-width: 1400px; 
+}
+
+#gradient {
+    background: linear-gradient(190deg,rgba(221, 228, 254, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(165deg, rgba(255, 226, 224, 0.8), rgba(0, 255, 0, 0) 70.71%), 
+    linear-gradient(336deg, rgba(255, 255, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    max-width: 1400px;
+}
+
+.gradient {
+    padding: 125px 0 0 262px;
+    display: flex;
+}
+
+.gradient-text h1 {
+    /* font-family: YS Text; */
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(33, 32, 31, 1);
+}
+
+.gradient-text {
+    z-index: 1;
+    position: relative;
+}
+
+.gradient-text img {
+    padding: 0 0 72px 0;
+}
+
+.gradient-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 48px 0 0 0;
+}
+
+.money-img {
+    margin:-30px 0 0 250px;
+}
+
+.money {
+    position: relative;
+    z-index: 1;
+}
+
+.money1 {
+    margin-left: -45px;
+}
+
+.btn {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 318px;
+    height: 65px;
+    border-radius: 36px;
+    gap: 4px;
+    background: rgba(255, 222, 64, 1);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gradient-text a, .Club-text a {
+    align-items: center;
+    display: grid;
+    color: rgba(33, 32, 31, 1);
+}
+
+.gradient-img {
+    margin: -175px 0 0 -135px;
+}
+
+.samokat {
+    margin: 0px 0 0 -115px;
+}
+
+.samokat1 {
+    margin: -702px 0 0 0;
+}
+
+.samokat2 {
+    margin: -350px 0 0 -595px;
+    position: absolute;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding: 3px 0 48px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 498px);
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 135px;
+    margin-top: 0px;
+    justify-content: start;
+}
+
+.container-box-p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+
+.box-1 {
+    width: 364px;
+}
+
+.box-2 {
+    width: 392px;
+}
+
+.Exclusive-text {
+    width: 442px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Exclusive-img {
+    margin: -172px 0 0 0;
+}
+
+.Exclusive-img2 {
+    margin:-127px 0 0 -215px;
+    text-align: end;
+    position: absolute;
+}
+
+.Exclusive-img3 {
+    margin: 90px 0 0 -1205px;
+    position: absolute;
+}
+
+.Exclusive-img4 {
+    margin: -560px 0px 0 610px;
+}
+
+.Club1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Club2 {
+    display: flex;
+    justify-content: center;
+    margin: -80px 0 0 -170px;
+}
+
+.Club1 {
+    padding: 0;
+}
+
+.Club-text h2 {
+    max-width: 490px;
+    padding: 3px 0 48px 0;
+}
+
+.Club-text h3 {
+    width: 490px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0 0 40px 0;
+
+}
+
+.Club-img3 {
+    position: absolute;
+}
+
+.Club-img1 {
+    margin: -235px 0 0 -80px;
+}
+
+.Club-img2 {
+    margin:-776px 0 0 -160px;
+}
+
+.Club-img3 {
+    margin: -485px 0 0 -715px;
+}
+
+.Club-img4 {
+    margin: -140px 0 0 -163px;
+}
+
+.Club-img5 {
+    margin: -50px 0 0 -630px;
+    position: absolute;
+}
+
+.Footer {
+    padding: 0 0 128px 0;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 13px;
+    color: rgba(197, 197, 197, 1);
+    max-width: 906px;
+}
+
+.Footer a {
+    color: rgba(197, 197, 197, 1);
+}
+
+.gradient-img-mob, .money-img-mob, .slider, .slider-img,
+.button111, .Club1-mob, .btn-scroll {
+    display: none;
+}
