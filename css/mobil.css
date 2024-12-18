@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     * {
         margin: 0;
         padding: 0;
@@ -28,7 +28,7 @@
     }
 
     .section {
-        margin: 0 0 0 32px;
+        margin: 0;
     }
 
     .section1 {
@@ -67,7 +67,7 @@
     
         /* Кнопка- скрол */
     .btn-scroll {
-        position: sticky;
+        position: relative;
         top: 600px;
         min-height: 0;
         z-index: 2;
@@ -212,11 +212,4 @@
         text-align: left;
         padding: 72px 0 72px 0;
     }
-
-
-
-
-
-
-
 }
